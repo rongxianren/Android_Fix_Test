@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="YzImageView">
+    <attr name="roundAsCircle" format="boolean" />
+    <attr name="roundedCornerRadius" format="dimension" />
+    <attr name="placeholderImage" format="reference" />
+    <attr name="otherCircleHolder" format="reference" />
+    <attr name="failureImage" format="reference" />
+    <attr name="roundBottomLeft" format="boolean" />
+    <attr name="roundBottomRight" format="boolean" />
+    <attr name="actualImageScaleType" format="enum">
+        <enum name="fitXY" value="1" />
+        <enum name="centerCrop" value="6" />
+        <enum name="fitCenter" value="3" />
+        <enum name="centerInside" value="7" />
+    </attr>
+</declare-styleable>
+</resources>
